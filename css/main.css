@@ -39,9 +39,6 @@ body {
 	font-family: Oswald, Arial;
 }
 
-#whisky-glass {
-}
-
 #whisky-glass img {
 	margin: 0 auto;
 }
@@ -113,7 +110,6 @@ body {
 	text-align: center;
 	display: block;
 }
-
 
 #sponsors {
 	margin-top: 25px;
@@ -200,6 +196,7 @@ footer {
 }
 
 footer .copyright {
+	float: left;
 	font-size: 1.3em;
 	font-family: "Open Sans", Arial;
 }
