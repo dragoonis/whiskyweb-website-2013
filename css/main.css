@@ -1,0 +1,235 @@
+body {
+	position: relative;
+    background: url(../images/light_bg.png) repeat;
+}
+
+#wrapper {
+	margin: 0 auto;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+
+#top-nav {
+	margin-bottom: 50px;
+	background: url(../images/grey_bg.png) repeat;
+	padding: 12px 0 12px 0;
+}
+
+#top-nav ul {
+	list-style-type: none;
+	width: 700px;
+	margin: 0 auto;
+}
+
+#top-nav li.shark {
+	margin: 0 12px 0 12px;
+}
+
+#top-nav li {
+	float: left;
+}
+
+#top-nav li a {
+	color: #fff;
+	font-size: 1.2em;
+	display: block;
+	padding: 20px 25px 20px 25px;
+	font-family: Oswald, Arial;
+}
+
+#whisky-glass {
+}
+
+#whisky-glass img {
+	margin: 0 auto;
+}
+
+#whisky-glass img {
+	display: block;
+}
+
+#whiskyweb-text {
+    margin: 12px auto 0 auto;
+	width: 257px;
+	font-size: 3.0em;
+	color: #e2961c;
+}
+
+#whiskyweb-subtext {
+	margin: 12px auto 0 auto;
+	width: 149px;
+	font-size: 1.5em;
+	color: #b06712;
+}
+
+#intro-text {
+	font-size: 1.8em;
+	margin: 12px auto 50px auto;
+	text-align: center;
+	line-height: 1.3em;
+	color: #7f7f7f;
+}
+
+#get-involved {
+	background: url(../images/yellow_bg.png) repeat;
+	padding: 12px;
+	margin-top: 25px;
+	position: relative;
+}
+
+#get-involved .header {
+	font-size: 3.0em;
+	width: 375px;
+	text-align: center;
+	margin: 20px auto 45px auto;
+	color: #fffff4;
+}
+
+#get-involved .desc {
+	width: 50%;
+	text-align: center;
+	margin: 25px auto 25px auto;
+	font-size: 1.3em;
+	color: #fffff4;
+}
+
+#get-involved .triangle-up {
+	position: absolute;
+	left: 48%;
+	top: -25px;
+}
+
+#get-involved .triangle-down {
+	position: absolute;
+	left: 48%;
+	bottom: -25px;
+}
+
+#get-involved .dots {
+	width: 32px;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+
+#sponsors {
+	margin-top: 25px;
+	padding: 12px;
+	height: 380px;
+	background: url(../images/castle.png) no-repeat center;
+	position: relative;
+}
+
+#sponsors .header {
+	font-size: 3.0em;
+	width: 190px;
+	text-align: center;
+	margin: 12px auto 0 auto;
+	color: #4a4a4a;
+}
+
+#sponsors .desc {
+	font-size: 1.5em;
+	width: 60%;
+	color: #7F7F7F;
+	text-align: center;
+	margin: 25px auto 0 auto;
+}
+
+#sponsors .become-a-sponsor {
+	text-transform: uppercase;
+	position: absolute;
+	padding: 17px;
+	bottom: 51px;
+	left: 42%;
+	background-color: #6b4612;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.4em;
+	opacity: 0.8;
+}
+
+#sponsors .become-a-sponsor:hover {
+	opacity: 1;
+}
+
+#get-in-touch {
+	padding: 25px 12px 25px 12px;
+	background: url(../images/grey_bg.png) repeat;
+}
+
+#get-in-touch .header {
+	font-size: 3.0em;
+	width: 250px;
+	text-align: center;
+	margin: 12px auto 0 auto;
+	color: #fffff4;
+}
+
+#get-in-touch .desc {
+	font-size: 1.5em;
+	width: 70%;
+	text-align: center;
+	margin: 25px auto 25px auto;
+	color: #fffff4;
+}
+
+#get-in-touch .images {
+	width: 270px;
+	margin: 12px auto 0 auto;
+}
+
+#get-in-touch .images a:first-child {
+	margin-right: 25px;
+}
+
+#get-in-touch .images a {
+	display: block;
+	float: left;
+}
+
+
+footer {
+	background: url(../images/yellow_bg.png) repeat;
+	height: 50px;
+	color: #fffff4;
+	padding: 25px 25px 0 25px;
+}
+
+footer .copyright {
+	font-size: 1.3em;
+	font-family: "Open Sans", Arial;
+}
+
+footer ul {
+	float: right;
+	list-style-type: none;
+}
+
+footer ul li {
+	margin-right: 12px;
+	float: left;
+}
+
+footer ul li a {
+	color: #fffff4;
+	font-size: 1.2em;
+	font-family: "Open Sans", Arial;
+}
+
+footer ul li:last-child {
+	margin-right: 0;
+}
+
+/* --- Font declarations --- */
+#whiskyweb-text, #whiskyweb-subtext, #get-involved .header, #sponsors .header, #get-in-touch .header, #sponsors .become-a-sponsor {
+	font-family: Oswald, Arial;
+}
+
+#intro-text, #sponsors .desc, #get-in-touch .desc, #get-involved .desc {
+	font-family: 'Open Sans', Arial;
+	line-height: 1.1em;
+}
