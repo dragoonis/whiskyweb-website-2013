@@ -52,6 +52,8 @@ body {
 	width: 257px;
 	font-size: 3.0em;
 	color: #e2961c;
+	text-shadow: 1px 0px 1px #a55b00;
+	filter: dropshadow(color=#a55b00, offx=1, offy=0);
 }
 
 #whiskyweb-subtext {
@@ -88,6 +90,8 @@ body {
 	text-align: center;
 	margin: 20px auto 45px auto;
 	color: #fffff4;
+	text-shadow: 1px 3px 2px #a55b00;
+	filter: dropshadow(color=#a55b00, offx=1, offy=3);
 }
 
 #get-involved .desc {
@@ -131,6 +135,8 @@ body {
 	text-align: center;
 	margin: 12px auto 0 auto;
 	color: #4a4a4a;
+	text-shadow: 2px 3px 1px #C3C3C3;
+	filter: dropshadow(color=#C3C3C3, offx=2, offy=3);
 }
 
 #sponsors .desc {
@@ -169,6 +175,8 @@ body {
 	text-align: center;
 	margin: 12px auto 0 auto;
 	color: #fffff4;
+	text-shadow: 2px 3px 1px #333;
+	filter: dropshadow(color=#333, offx=2, offy=3);
 }
 
 #get-in-touch .desc {
