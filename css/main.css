@@ -69,6 +69,12 @@ body {
 	color: #7f7f7f;
 }
 
+.grey-hexes {
+	display: block;
+	margin: 12px auto 0 auto;
+	width: 32px;
+}
+
 #get-involved {
 	background: url(../images/yellow_bg.png) repeat;
 	padding: 12px;
